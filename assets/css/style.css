@@ -1197,3 +1197,10 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+ @media (max-width: 768px) {
+    /* Adjust styles for screens up to 768 pixels wide */
+    button[type="submit"] {
+      width: 80%; /* Adjust as needed */
+      max-width: none; /* Remove max-width restriction */
+    }
+ }
